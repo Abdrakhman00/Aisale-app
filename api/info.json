@@ -1,0 +1,199 @@
+{
+    "cards": [
+        {
+            "_id": 1,
+            "name": "Total",
+            "icon": "bi bi-telephone",
+            "amount": 145,
+            "percentage": 0.12,
+            "active": true,
+            "id": "c093"
+        },
+        {
+            "_id": 2,
+            "name": "Answered",
+            "icon": "bi bi-check-circle",
+            "amount": 3246,
+            "percentage": 0.08,
+            "active": false,
+            "id": "cff9"
+        },
+        {
+            "_id": 3,
+            "name": "Abandoned",
+            "icon": "bi bi-x-circle",
+            "amount": 1244,
+            "percentage": -0.11,
+            "active": false,
+            "id": "f202"
+        }
+    ],
+    "news": [
+        {
+            "_id": 1,
+            "img": "../assets/items/news-1.jpg",
+            "title": "Nihil blanditiis at in nihil autem",
+            "subtitle": "Sit recusandae non aspernatur laboriosam. Quia enim eligendi sed ut harum",
+            "category": "abc"
+        },
+        {
+            "_id": 2,
+            "img": "../assets/items/news-2.jpg",
+            "title": "Quidem autem et impedit",
+            "subtitle": "Illo nemo neque maiores vitae officiis cum eum turos elan dries werona nar",
+            "category": "abc"
+        },
+        {
+            "_id": 3,
+            "img": "../assets/items/news-3.jpg",
+            "title": "Id quia et et ut maxime similique occaecati ut",
+            "subtitle": "Fugiat voluptas vero eaque accusantium eos. Consequuntur sed ipsam et tota",
+            "category": "abc"
+        },
+        {
+            "_id": 4,
+            "img": "../assets/items/news-4.jpg",
+            "title": "Laborum corporis quo dara net para",
+            "subtitle": "Qui enim quia optio. Eligendi aut asperiores enim repellendus vel rerum cu",
+            "category": "abc"
+        },
+        {
+            "_id": 5,
+            "img": "../assets/items/news-5.jpg",
+            "title": "Et dolores corrupti quae illo quod dolor",
+            "subtitle": "Odit ut eveniet modi reiciendis. Atque cupiditate libero beatae dignissim",
+            "category": "abc"
+        }
+    ],
+    "topselling": [
+        {
+            "_id": 1,
+            "preview": "../assets/items/product-1.jpg",
+            "name": "Ut inventore ipsa voluptas nulla",
+            "price": 64,
+            "sold": 124
+        },
+        {
+            "_id": 2,
+            "preview": "../assets/items/product-2.jpg",
+            "name": "Exercitationem similique doloremque",
+            "price": 46,
+            "sold": 98
+        },
+        {
+            "_id": 3,
+            "preview": "../assets/items/product-3.jpg",
+            "name": "Doloribus nisi exercitationem",
+            "price": 59,
+            "sold": 74
+        },
+        {
+            "_id": 4,
+            "preview": "../assets/items/product-4.jpg",
+            "name": "Officiis quaerat sint rerum error",
+            "price": 32,
+            "sold": 63
+        },
+        {
+            "_id": 5,
+            "preview": "../assets/items/product-5.jpg",
+            "name": "Sit unde debitis delectus repellendus",
+            "price": 79,
+            "sold": 41
+        }
+    ],
+    "recentsales": [
+        {
+            "_id": 1,
+            "call_id": "#1024",
+            "caller": "Olivia Smith",
+            "topic": "Product Inquiry",
+            "duration_minutes": 15,
+            "status": "Completed",
+            "operator": "John Doe"
+        },
+        {
+            "_id": 2,
+            "call_id": "#1032",
+            "caller": "Liam Johnson",
+            "topic": "Technical Support",
+            "duration_minutes": 30,
+            "status": "In Progress",
+            "operator": "Jane Doe"
+        },
+        {
+            "_id": 3,
+            "call_id": "#1038",
+            "caller": "Emma Williams",
+            "topic": "Billing Issue",
+            "duration_minutes": 25,
+            "status": "Completed",
+            "operator": "Sarah Connor"
+        },
+        {
+            "_id": 4,
+            "call_id": "#1045",
+            "caller": "Noah Brown",
+            "topic": "Complaint",
+            "duration_minutes": 40,
+            "status": "Escalated",
+            "operator": "Michael Scott"
+        },
+        {
+            "_id": 5,
+            "call_id": "#1051",
+            "caller": "Ava Davis",
+            "topic": "New Order",
+            "duration_minutes": 20,
+            "status": "Completed",
+            "operator": "Pam Beesly"
+        }
+    ],
+    "recentActivity": [
+        {
+            "_id": 1,
+            "time": "32 min",
+            "color": "text-success",
+            "status": "Успешно",
+            "content": "Абдрахман",
+            "highlight": "explicabo officiis",
+            "id": "a4f9"
+        },
+        {
+            "_id": 2,
+            "time": "56 min",
+            "color": "text-danger",
+            "status": "Ошибка",
+            "content": "Voluptatem blanditiis blanditiis eveniet",
+            "highlight": "",
+            "id": "4215"
+        },
+        {
+            "_id": 3,
+            "time": "1 day",
+            "color": "text-info",
+            "status": "Информация",
+            "content": "Tempore autem saepe occaecati voluptatem tempore",
+            "highlight": "occaecati voluptatem",
+            "id": "255e"
+        },
+        {
+            "_id": 4,
+            "time": "2 days",
+            "color": "text-warning",
+            "status": "Предупреждение",
+            "content": "Est sit eum reiciendis exercitationem",
+            "highlight": "",
+            "id": "51b5"
+        },
+        {
+            "_id": 5,
+            "time": "4 weeks",
+            "color": "text-muted",
+            "status": "Неактивно",
+            "content": "Dicta dolorem harum nulla eius. Ut quidem quidem sit quas",
+            "highlight": "",
+            "id": "cee5"
+        }
+    ]
+}

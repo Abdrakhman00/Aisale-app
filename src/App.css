@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* ------------------------- General ------------------------*/
+:root {
+  scroll-behavior: smooth;
+  --primary:#0f3d28e8;
+  --second:#108651;
+  --bgcolor:#f6f9ff;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: var(--bgcolor);
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover{
+  color: var(--second);
+  text-decoration: none;
+}
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+h6{
+  font-family: 'Nunito', sans-serif;
+}
+
+/* Dropdown menus */
+.dropdown-menu {
+  border-radius: 4px; /* Устанавливает радиус скругления */
+  padding: 10px 0; /* Устанавливает внутренние отступы */
+  animation-name: dropdown-animate; /* Название анимации */
+  animation-duration: 0.2s; /* Длительность анимации */
+  animation-fill-mode: both; /* Состояние анимации после завершения */
+  border: 0; /* Убирает границу */
+  box-shadow: 0 5px 30px rgba(82, 63, 105, 0.2); /* Добавляет тень */
+}
+
+.dropdown-menu .dropdown-header,
+.dropdown-menu .dropdown-footer {
+  text-align: center; /* Центрирует текст */
+  font-size: 15px; /* Размер шрифта */
+  padding: 10px 25px; /* Устанавливает внутренние отступы */
+}
+
+.dropdown-menu .dropdown-footer a {
+  color: #444444; /* Цвет текста ссылок в подвале */
+  text-decoration: underline; /* Подчеркивание текста */
+}
+
+.dropdown-menu .dropdown-footer a:hover {
+  text-decoration: none; /* Убирает подчеркивание при наведении */
+}
+
+.dropdown-menu .dropdown-divider {
+  color: #a5c5fe; /* Цвет разделителя */
+  margin: 0; /* Убирает отступы */
+}
+
+.dropdown-menu .dropdown-item {
+  font-size: 14px; /* Размер шрифта */
+  padding: 10px 15px; /* Внутренние отступы */
+  transition: 0.3s; /* Плавный переход для анимации */
+}
+
+.dropdown-menu .dropdown-item i {
+  margin-right: 10px; /* Отступ справа для иконок */
+  font-size: 18px; /* Размер шрифта для иконок */
+  line-height: 0; /* Высота строки для иконок */
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #f6f9ff; /* Цвет фона при наведении на элемент */
+}
+
+@media (min-width: 768px) {
+  .dropdown-menu-arrow:before {
+    content: ''; /* Содержимое для псевдоэлемента */
+    width: 13px; /* Ширина стрелки */
+    height: 13px; /* Высота стрелки */
+    background: #fff; /* Фоновый цвет стрелки */
+    position: absolute; /* Абсолютное позиционирование */
+    top: -7px; /* Положение сверху */
+    right: 20px; /* Положение справа */
+    transform: rotate(45deg); /* Поворот стрелки */
+    border-top: 1px solid #eaedf1; /* Верхняя граница */
+    border-left: 1px solid #eaedf1; /* Левую границу */
+  }
+}
+
+@-webkit-keyframes dropdown-animate {
+  0% {
+    opacity: 0; /* Начальная прозрачность */
+  }
+  100% {
+    opacity: 1; /* Конечная прозрачность */
+  }
+}
+
+@keyframes dropdown-animate {
+  0% {
+    opacity: 0; /* Начальная прозрачность */
+  }
+  100% {
+    opacity: 1; /* Конечная прозрачность */
+  }
+  0% {
+    opacity: 0; 
+  }
+
+}
+
+/* Card */
+.card {
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px rgba(1, 41, 112, 0.1);
+}
+
+.card-header,
+.card-footer {
+  border-color: #ebeef4;
+  background-color: #fff;
+  color: #798eb3;
+  padding: 15px;
+}
+
+.card-title {
+  padding: 20px 0 15px 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #106D76;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card-title span {
+  color: #899bbd;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card-body {
+  padding: 0 20px 20px 20px;
+}
+.card-img-overlay {
+  background-color: rgba(255, 255, 255, 0.6);
+}
